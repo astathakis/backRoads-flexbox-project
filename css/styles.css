@@ -715,9 +715,9 @@ Gallery
   color: var(--clr-white);
   opacity: 0;
   cursor: pointer;
-  -webkit-transform: var(--transition);
-  -ms-transform: var(--transition);
-  transform: var(--transition);
+  -webkit-transition: var(--transition);
+  -ms-transition: var(--transition);
+  transition: var(--transition);
 }
 .gallery-img {
   height: 17rem;
